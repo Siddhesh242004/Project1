@@ -1,0 +1,306 @@
+
+.offer{
+    height: 80vh;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.design{
+    background-image: url(/image/design.jpg);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+.book-image{
+    background-image: url(/image/balidan-removebg-preview.png);
+    height: 40%;
+    width: 60%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    width: 50%;
+}
+.offer-text{
+    height: 100%;
+    width: 50%;  
+    display: flex;
+    align-items: center;  
+}
+
+.text-items{
+    height:80%;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 0 0 40px 20px;
+}
+
+.text-items h1{
+    font-size: 4.1vw;
+    font-weight: 1000px;
+    margin: 0;
+}
+
+.text-items p{
+    font-size: 1.3vw;
+    font-weight: 1000px;
+    margin: 0;
+}
+
+.text-items button{
+    height: 8vh;
+    width: 8vw;
+    border-radius: 12px;
+    background-color: rgb(132, 0, 255);
+    border: none;
+    margin: 20px;
+}
+
+.btn{
+    font-size: 1.2vw;
+    color: #fff;
+}
+
+
+
+@media (min-width:1000px) and (max-width:1500px) {
+
+    .design{
+        display: flex;
+        align-items: center;
+    }
+        .offer-text{
+            height: 60%;
+        }
+        .text-items {
+            height: 60%;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding-top: 20px;
+        }
+        .btn{
+            font-size: 1.5vw;
+            color: #fff;
+        }
+        .book-image{
+            height: 60%;
+        }
+}
+
+
+@media (min-width:800px) and (max-width:1000px){
+    .offer{
+        height: fit-content;
+        width: 100%;
+        margin-top: 50px;
+    }
+    .design{
+        height: 60%;
+        width: 100%;
+        background-color: rgb(255, 118, 20);
+        background-image: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    .text-items {
+        height: 60%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px;
+        margin-left: 60px;
+    }
+    .offer-text button{
+        height: 5vh;
+        width: 9vw;
+        color: #fff;
+    }
+    .book-image{
+        background-image: url(/image/balidan-removebg-preview.png);
+        height: 40vh;
+        width: 70%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        
+    }
+}
+
+
+@media (min-width:650px) and (max-width:800px){
+    .offer{
+        height: fit-content;
+    }
+    .design{
+        height: 100%;
+        width: 100%;
+        background-color: rgb(255, 118, 20);
+        background-image: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .offer-text{
+        height: fit-content;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .text-items {
+        height: 30%;
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+    .text-items h1{
+        display: flex;
+        justify-content: center;
+        font-size: 6vw;
+        margin: 0;
+        padding: 10px 0 0 0;
+    }
+    .text-items p{
+        font-size: 2.5vw;
+    }
+    .offer-text button{
+        height: 3vw;
+        width: 15vw;
+        color: #fff;
+        font-size: 100%;
+    }
+    .book-image{
+        background-image: url(/image/balidan-removebg-preview.png);
+        height: 45vw;
+        width: 80%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        
+    }
+}
+
+
+
+@media (min-width:550px) and (max-width:650px){
+    .design{
+        height: 90%;
+        width: 100%;
+        background-color: rgb(255, 118, 20);
+        background-image: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .offer-text{
+        height: fit-content;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .text-items {
+        height: 30%;
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+    .text-items h1{
+        display: flex;
+        justify-content: center;
+        font-size: 6vw;
+        margin: 0;
+        padding: 10px 0 0 0;
+    }
+    .text-items p{
+        font-size: 2.5vw;
+    }
+    .offer-text button{
+        height: 4vw;
+        width: 16vw;
+        color: #fff;
+        font-size: 3vw;
+    }
+    .book-image{
+        background-image: url(/image/balidan-removebg-preview.png);
+        height: 100%;
+        width: 80%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+}
+
+
+
+
+@media (min-width:000px) and (max-width:550px){
+    .design{
+        height: 70%;
+        width: 100%;
+        background-color: rgb(255, 118, 20);
+        background-image: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .offer-text{
+        height: fit-content;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .text-items {
+        height: 30%;
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+    .text-items h1{
+        display: flex;
+        justify-content: center;
+        font-size: 5vw;
+        margin: 0;
+        padding: 10px 0 0 0;
+    }
+    .text-items p{
+        font-size: 2vw;
+    }
+    .offer-text button{
+        height: 4vw;
+        width: 16vw;
+        color: #fff;
+        font-size: 3vw;
+    }
+    .book-image{
+        background-image: url(/image/balidan-removebg-preview.png);
+        height: 100%;
+        width: 80%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+}

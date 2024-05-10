@@ -1,0 +1,1153 @@
+.section{
+    height: 45vw;
+    width: 100%;
+    margin-top: 100px;
+    padding: 30px 0;
+}
+.section1{
+    height: 100%;
+    width: 90%;
+    margin:auto;
+}
+.section1 h1{
+    border: 5px solid rgb(255, 118, 20);
+    border-radius: 12px;
+    height: 10%;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    padding:0 20px;
+    font-size: 3vw;
+}
+.products{
+    height: 87%;
+    width: 100%;
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 80px;
+}
+.products button{
+    height: 85%;
+    width: 25%;
+    box-shadow: 0 2px 4px 0 rgb(163, 160, 160),0 4px 16px 0 rgb(165, 153, 153);
+}
+
+.products button:hover{
+    box-shadow: 0 6px 8px 0 rgb(157, 152, 152),0 8px 22px 0 rgb(160, 154, 154);
+}
+
+.btn{
+    background-color: #fff;
+    border-radius: 8px;
+    border: none;
+}
+
+
+
+.book1{
+    height: 60%;
+    width: 100%;
+    background-color: #fff;
+    background-image: url(/image/book1..jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+
+.book1-text{
+    height: 40%;
+    width: 100%;
+    background-color: #efefef;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    color: #000;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+
+.book1-text form{
+    padding: 6px 0;
+}
+
+.book1-text label{
+    font-size: 80%;
+    float: left;
+   
+}
+.book1-text input{
+    height: 100%;
+    float: left;
+   
+}
+
+.book1-text h1{
+    font-size: 120%;
+    border: none;
+    height: fit-content;
+    width: 100%;
+    word-wrap: normal;
+    padding: 0;
+}
+
+.book1-text h3{
+    height: fit-content;
+    width: 40%;
+    font-size: 0.8em;
+    padding: 6px 0 0px 0;
+    display: flex;
+    align-items: flex-start;
+}
+.book1-text p{
+    height: fit-content;
+    width: 40%;
+    font-size: 1.5em;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color:  rgb(255, 118, 20);
+    padding:0;
+    color: #fff;
+    border-radius: 12px;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+.book2{
+    height: 60%;
+    width: 100%;
+    background-color: #fff;
+    background-image: url(/image/book2.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+
+.book2-text{
+    height: 40%;
+    width: 100%;
+    background-color: #efefef;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    color: #000;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+
+.book2-text form{
+    padding: 6px 0;
+}
+
+.book2-text label{
+    font-size: 80%;
+    float: left;
+   
+}
+.book2-text input{
+    height: 100%;
+    float: left;
+   
+}
+
+.book2-text h1{
+    font-size: 120%;
+    border: none;
+    height: fit-content;
+    width: 100%;
+    padding: 0 ;
+}
+
+.book2-text h3{
+    height: fit-content;
+    width: 40%;
+    font-size: 0.8em;
+    padding: 6px 0 0px 0;
+    display: flex;
+    align-items: flex-start;
+}
+.book2-text p{
+    height: fit-content;
+    width: 40%;
+    font-size: 1.5em;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color:  rgb(255, 118, 20);
+    padding:0;
+    color: #fff;
+    border-radius: 12px;
+    border: none;
+}
+
+
+
+
+
+.book3{
+    height: 60%;
+    width: 100%;
+    background-color: #fff;
+    background-image: url(/image/book3.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+
+}
+
+
+.book3-text{
+    height: 40%;
+    width: 100%;
+    background-color: #efefef;
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+    color: #000;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+
+.book3-text form{
+    padding: 6px 0;
+}
+
+.book3-text label{
+    font-size: 80%;
+    float: left;
+   
+}
+.book3-text input{
+    height: 100%;
+    float: left;
+   
+}
+
+.book3-text h1{
+    font-size: 1.3em;
+    border: none;
+    height: fit-content;
+    width: 100%;
+    padding: 0 ;
+}
+
+.book3-text h3{
+    height: fit-content;
+    width: 40%;
+    font-size: 0.8em;
+    padding: 6px 0 0px 0;
+    display: flex;
+    align-items: flex-start;
+}
+.book3-text p{
+    height: fit-content;
+    width: 40%;
+    font-size: 1.5em;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color:  rgb(255, 118, 20);
+    padding:0;
+    color: #fff;
+    border-radius: 12px;
+    border: none;
+}
+
+
+@media (min-width:1000px) and (max-width:1501px) {
+    
+    .section{
+        height: 45vw;
+        width: 100%;
+        margin: 50px 0;
+        padding: 0;
+    }
+    .section1{
+        height: 100%;
+        width: 100%;
+        margin: 0 0 0 40px;
+    }
+
+.book1-text{
+    height: 40%;
+    width: 100%;
+    background-color: #efefef;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    color: #000;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+
+.book1-text form{
+    padding: 6px 0;
+}
+
+.book1-text label{
+    font-size: 80%;
+    float: left;
+   
+}
+.book1-text input{
+    height: 100%;
+    float: left;
+   
+}
+
+.book1-text h1{
+    font-size: 100%;
+    border: none;
+    height: fit-content;
+    width: 100%;
+    word-wrap: normal;
+    padding: 0;
+    margin: 0;
+}
+
+.book1-text h3{
+    height: fit-content;
+    width: 40%;
+    font-size: 0.6em;
+    padding: 6px 0 0px 0;
+    display: flex;
+}
+.book1-text p{
+    height: fit-content;
+    width: 40%;
+    font-size: 1.5em;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color:  rgb(255, 118, 20);
+    padding:0;
+    color: #fff;
+    border-radius: 12px;
+    border: none;
+}
+
+
+
+
+
+
+.book2-text{
+    height: 40%;
+    width: 100%;
+    background-color: #efefef;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    color: #000;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+
+.book2-text form{
+    padding: 6px 0;
+}
+
+.book2-text label{
+    font-size: 80%;
+    float: left;
+   
+}
+.book2-text input{
+    height: 100%;
+    float: left;
+   
+}
+
+.book2-text h1{
+    font-size: 120%;
+    border: none;
+    height: fit-content;
+    width: 100%;
+    padding: 0 ;
+}
+
+.book2-text h3{
+    height: fit-content;
+    width: 40%;
+    font-size: 0.8em;
+    padding: 6px 0 0px 0;
+    display: flex;
+    align-items: flex-start;
+}
+.book2-text p{
+    height: fit-content;
+    width: 40%;
+    font-size: 1.5em;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color:  rgb(255, 118, 20);
+    padding:0;
+    color: #fff;
+    border-radius: 12px;
+    border: none;
+}
+
+
+
+
+.book3-text{
+    height: 40%;
+    width: 100%;
+    background-color: #efefef;
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+    color: #000;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+
+.book3-text form{
+    padding: 6px 0;
+}
+
+.book3-text label{
+    font-size: 80%;
+    float: left;
+   
+}
+.book3-text input{
+    height: 100%;
+    float: left;
+   
+}
+
+.book3-text h1{
+    font-size: 1.3em;
+    border: none;
+    height: fit-content;
+    width: 100%;
+    padding: 0 ;
+}
+
+.book3-text h3{
+    height: fit-content;
+    width: 40%;
+    font-size: 0.8em;
+    padding: 6px 0 0px 0;
+    display: flex;
+    align-items: flex-start;
+}
+.book3-text p{
+    height: fit-content;
+    width: 40%;
+    font-size: 1.5em;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color:  rgb(255, 118, 20);
+    padding:0;
+    color: #fff;
+    border-radius: 12px;
+    border: none;
+}
+
+
+}
+
+
+
+
+
+@media (min-width:800px) and (max-width:1000px) {
+    .section{
+        margin: 0;
+        height: 50vw;
+        width: 100%;
+    }
+}
+
+
+@media (min-width:600px) and (max-width:800px) {
+    .section{
+        margin: 0;
+        height: fit-content;
+    }
+    .section1{
+        height: 90%;
+        width: 100%;
+        margin: auto;
+    }
+    .section1 h1{
+        margin: 3vw 9vw;
+        padding: 5px 10px;
+        height: fit-content;
+    }
+
+    .products{
+        height: fit-content;
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5%;
+        padding: 0;
+    }
+
+    .products button{
+        height: 55vw;
+        width: 35vw;
+        margin-bottom: 20px;
+       
+    }
+    .book1{
+        height: 60%;
+        width: 30vw;
+    }
+    
+.book1-text{
+    height: 40%;
+    width: 100%;
+    background-color: #efefef;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    color: #000;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+
+.book1-text form{
+    padding: 6px 0;
+}
+
+.book1-text label{
+    font-size: 1.5vw;
+    float: left;
+   
+}
+.book1-text input{
+    height: 100%;
+    float: left;
+   
+}
+
+.book1-text h1{
+    font-size: 2vw;
+    border: none;
+    height: fit-content;
+    width: 100%;
+    word-wrap: normal;
+    padding: 0;
+    margin: 0;
+}
+
+.book1-text h3{
+    height: fit-content;
+    width: 40%;
+    font-size: 1.5vw;
+    padding: 6px 0 0px 0;
+    display: flex;
+}
+.book1-text p{
+    height: fit-content;
+    width: 40%;
+    font-size: 2.5vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color:  rgb(255, 118, 20);
+    padding:0;
+    color: #fff;
+    border-radius: 12px;
+    border: none;
+}
+
+
+
+
+
+
+.book2-text{
+    height: 40%;
+    width: 100%;
+    background-color: #efefef;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    color: #000;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+
+.book2-text form{
+    padding: 6px 0;
+}
+
+.book2-text label{
+    font-size: 1.5vw;
+    float: left;
+   
+}
+.book2-text input{
+    height: 100%;
+    float: left;
+   
+}
+
+.book2-text h1{
+    font-size: 2vw;
+    border: none;
+    height: fit-content;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.book2-text h3{
+    height: fit-content;
+    width: 40%;
+    font-size: 1.5vw;
+    padding: 6px 0 0px 0;
+    display: flex;
+    align-items: flex-start;
+}
+.book2-text p{
+    height: fit-content;
+    width: 40%;
+    font-size: 2.5vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color:  rgb(255, 118, 20);
+    padding:0;
+    color: #fff;
+    border-radius: 12px;
+    border: none;
+}
+
+
+
+
+.book3-text{
+    height: 40%;
+    width: 100%;
+    background-color: #efefef;
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+    color: #000;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+
+.book3-text form{
+    padding: 6px 0;
+}
+
+.book3-text label{
+    font-size: 1.5vw;
+    float: left;
+   
+}
+.book3-text input{
+    height: 100%;
+    float: left;
+   
+}
+
+.book3-text h1{
+    font-size: 2vw;
+    border: none;
+    height: fit-content;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.book3-text h3{
+    height: fit-content;
+    width: 40%;
+    font-size: 1.5vw;
+    padding: 6px 0 0px 0;
+    display: flex;
+    align-items: flex-start;
+}
+.book3-text p{
+    height: fit-content;
+    width: 40%;
+    font-size: 2.5vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color:  rgb(255, 118, 20);
+    padding:0;
+    color: #fff;
+    border-radius: 12px;
+    border: none;
+}
+
+
+}
+
+
+
+@media (min-width:500px) and (max-width:600px) {
+    .section{
+        margin: 0;
+        padding: 0;
+        height: fit-content;
+    }
+    
+    .section1{
+        height: 90%;
+        width: 100%;
+        margin: auto;
+    }
+    .section1 h1{
+        margin: 3vw 9vw;
+        padding: 5px 10px;
+        height: fit-content;
+    }
+
+    .products{
+        height: fit-content;
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5%;
+        padding: 0;
+    }
+
+    .products button{
+        height: 55vw;
+        width: 35vw;
+        margin-bottom: 20px;
+       
+    }
+    .book1{
+        height: 60%;
+        width: 30vw;
+    }
+    
+.book1-text{
+    height: 40%;
+    width: 100%;
+    background-color: #efefef;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    color: #000;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+
+.book1-text form{
+    padding: 6px 0;
+}
+
+.book1-text label{
+    font-size: 1.5vw;
+    float: left;
+   
+}
+.book1-text input{
+    height: 100%;
+    float: left;
+   
+}
+
+.book1-text h1{
+    font-size: 2vw;
+    border: none;
+    height: fit-content;
+    width: 100%;
+    word-wrap: normal;
+    padding: 0;
+    margin: 0;
+}
+
+.book1-text h3{
+    height: fit-content;
+    width: 40%;
+    font-size: 1.5vw;
+    padding: 6px 0 0px 0;
+    display: flex;
+}
+.book1-text p{
+    height: fit-content;
+    width: 40%;
+    font-size: 2.5vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color:  rgb(255, 118, 20);
+    padding:0;
+    color: #fff;
+    border-radius: 12px;
+    border: none;
+}
+
+
+
+
+
+
+.book2-text{
+    height: 40%;
+    width: 100%;
+    background-color: #efefef;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    color: #000;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+
+.book2-text form{
+    padding: 6px 0;
+}
+
+.book2-text label{
+    font-size: 1.5vw;
+    float: left;
+   
+}
+.book2-text input{
+    height: 100%;
+    float: left;
+   
+}
+
+.book2-text h1{
+    font-size: 2vw;
+    border: none;
+    height: fit-content;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.book2-text h3{
+    height: fit-content;
+    width: 40%;
+    font-size: 1.5vw;
+    padding: 6px 0 0px 0;
+    display: flex;
+    align-items: flex-start;
+}
+.book2-text p{
+    height: fit-content;
+    width: 40%;
+    font-size: 2.5vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color:  rgb(255, 118, 20);
+    padding:0;
+    color: #fff;
+    border-radius: 12px;
+    border: none;
+}
+
+
+
+
+.book3-text{
+    height: 40%;
+    width: 100%;
+    background-color: #efefef;
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+    color: #000;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+
+.book3-text form{
+    padding: 6px 0;
+}
+
+.book3-text label{
+    font-size: 1.5vw;
+    float: left;
+   
+}
+.book3-text input{
+    height: 100%;
+    float: left;
+   
+}
+
+.book3-text h1{
+    font-size: 2vw;
+    border: none;
+    height: fit-content;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.book3-text h3{
+    height: fit-content;
+    width: 40%;
+    font-size: 1.5vw;
+    padding: 6px 0 0px 0;
+    display: flex;
+    align-items: flex-start;
+}
+.book3-text p{
+    height: fit-content;
+    width: 40%;
+    font-size: 2.5vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color:  rgb(255, 118, 20);
+    padding:0;
+    color: #fff;
+    border-radius: 12px;
+    border: none;
+}
+
+}
+
+
+
+@media (min-width:300px) and (max-width:500px) {
+    .section{
+        margin: 0;
+        padding: 0;
+        height: fit-content;
+    }
+    
+    .section1{
+        height: 90%;
+        width: 100%;
+        margin: auto;
+    }
+    .section1 h1{
+        margin: 3vw 9vw;
+        padding: 5px 10px;
+        height: fit-content;
+    }
+
+    .products{
+        height: fit-content;
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 5%;
+        padding: 0;
+    }
+
+    .products button{
+        height: 80vw;
+        width: 60vw;
+        margin-bottom: 20px;
+
+       
+    }
+    .book1{
+        height: 60%;
+        width: 100%;
+    }
+    
+.book1-text{
+    height: 40%;
+    width: 100%;
+    background-color: #efefef;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    color: #000;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+
+.book1-text form{
+    padding: 6px 0;
+}
+
+.book1-text label{
+    font-size: 1.8vw;
+    float: left;
+   
+}
+.book1-text input{
+    height: 100%;
+    float: left;
+   
+}
+
+.book1-text h1{
+    font-size: 3vw;
+    border: none;
+    height: fit-content;
+    width: 100%;
+    word-wrap: normal;
+    padding: 0;
+    margin: 0;
+}
+
+.book1-text h3{
+    height: fit-content;
+    width: 40%;
+    font-size: 1.8vw;
+    padding: 6px 0 0px 0;
+    display: flex;
+}
+.book1-text p{
+    height: fit-content;
+    width: 40%;
+    font-size: 3vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color:  rgb(255, 118, 20);
+    padding:0;
+    color: #fff;
+    border-radius: 12px;
+    border: none;
+}
+
+
+
+
+
+
+.book2-text{
+    height: 40%;
+    width: 100%;
+    background-color: #efefef;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    color: #000;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+
+.book2-text form{
+    padding: 6px 0;
+}
+
+.book2-text label{
+    font-size: 1.8vw;
+    float: left;
+   
+}
+.book2-text input{
+    height: 100%;
+    float: left;
+   
+}
+
+.book2-text h1{
+    font-size: 3vw;
+    border: none;
+    height: fit-content;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.book2-text h3{
+    height: fit-content;
+    width: 40%;
+    font-size: 1.8vw;
+    padding: 6px 0 0px 0;
+    display: flex;
+    align-items: flex-start;
+}
+.book2-text p{
+    height: fit-content;
+    width: 40%;
+    font-size: 3vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color:  rgb(255, 118, 20);
+    padding:0;
+    color: #fff;
+    border-radius: 12px;
+    border: none;
+}
+
+
+
+
+.book3-text{
+    height: 40%;
+    width: 100%;
+    background-color: #efefef;
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+    color: #000;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+
+.book3-text form{
+    padding: 6px 0;
+}
+
+.book3-text label{
+    font-size: 1.8vw;
+    float: left;
+   
+}
+.book3-text input{
+    height: 100%;
+    float: left;
+   
+}
+
+.book3-text h1{
+    font-size: 3vw;
+    border: none;
+    height: fit-content;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.book3-text h3{
+    height: fit-content;
+    width: 40%;
+    font-size: 1.8vw;
+    padding: 6px 0 0px 0;
+    display: flex;
+    align-items: flex-start;
+}
+.book3-text p{
+    height: fit-content;
+    width: 40%;
+    font-size: 3vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color:  rgb(255, 118, 20);
+    padding:0;
+    color: #fff;
+    border-radius: 12px;
+    border: none;
+}
+
+}

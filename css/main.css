@@ -1,0 +1,72 @@
+
+.content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.box1{
+    height: 88vh;
+    width: 50%;
+    padding: 6vw 0 0 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box1 h1{
+    font-size: 4vw;
+    padding-top: 40px;
+    padding-left: 5vw;
+    position: relative;
+    /* animation-name: textanimation;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out; */
+}
+.reader{
+    color: rgb(255, 118, 20); ;
+}
+.box1 p{
+    padding: 0 5vw;
+}
+
+.box2{
+    height: 88vh;
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+}
+
+.image{
+    background-image: url(/image/bookimage.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 70%;
+    width: 70%;
+
+}
+
+
+/* Animation */
+
+/* @keyframes textanimation {
+    0%{
+        left: 0px;
+        display: none;
+    }
+    50%{
+        left: 2vw;
+        display: contents;
+    }
+    100%{
+        font-size: 3vw;
+        left: 5vw;
+    }
+} */
+

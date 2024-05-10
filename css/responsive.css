@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+@media (min-width:840px) and (max-width:1000px){
+    
+    .ul2 a:nth-child(1){
+        display: none;
+    }
+
+    .ul2 a:nth-child(2){
+        display: none;
+    }
+    .ul2 a:nth-child(3){
+        display: none;
+    }
+
+    .ul2 a:nth-last-child(1){
+        display: inline-block;
+    }
+    .ul1 a{
+        display: none;
+    }
+    .Searchbar button{
+        font-size: 1em;
+        padding: 0;
+    }
+
+}
+
+
+@media (min-width:500px) and (max-width:840px){
+    
+    .ul2 a:nth-child(1){
+        display: none;
+    }
+
+    .ul2 a:nth-child(2){
+        display: none;
+    }
+    .ul2 a:nth-child(3){
+        display: none;
+    }
+
+    .Searchbar input{
+        width: 30vw;
+    }
+    .ul2 a:nth-last-child(1){
+        display: block;
+    }
+    .ul1 a{
+        display: none;
+    }
+    .Searchbar button{
+        font-size: 1em;
+        padding: 0;
+    }
+
+}
+
+@media (min-width:360px) and (max-width:500px){
+
+
+    .logo h1{
+        font-size: 4vh;
+    }
+
+    .Searchbar {
+        display: none;
+    }
+    
+    .ul2 a:nth-child(1){
+        display: none;
+    }
+
+    .ul2 a:nth-child(2){
+        display: none;
+    }
+    .ul2 a:nth-child(3){
+        display: none;
+    }
+    
+    .ul1 a{
+        display: none;
+    }
+    .Searchbar button{
+        font-size: 1em;
+        padding: 0;
+    }
+
+    
+}
+
+
+@media (min-width:000px) and (max-width:360px){
+
+
+    .logo h1{
+        font-size: 4vh;
+    }
+
+    .Searchbar {
+        display: none;
+    }
+
+    
+    .ul2 a:nth-child(1){
+        display: none;
+    }
+
+    .ul2 a:nth-child(2){
+        display: none;
+    }
+
+    .ul2 a:nth-child(3){
+        display: none;
+    }
+
+    .ul1 a{
+        display: none;
+    }
+    .Searchbar button{
+        font-size: 1em;
+        padding: 0;
+    }
+
+}
