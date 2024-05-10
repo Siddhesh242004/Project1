@@ -50,7 +50,7 @@
     height: 60%;
     width: 100%;
     background-color: #fff;
-    background-image: url(/image/book1.webp);
+    background-image: url(image/book1.webp);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -128,7 +128,7 @@
     height: 60%;
     width: 100%;
     background-color: #fff;
-    background-image: url(/image/book2.webp);
+    background-image: url(image/book2.webp);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -201,7 +201,7 @@
     height: 60%;
     width: 100%;
     background-color: #fff;
-    background-image: url(/image/book3.webp);
+    background-image: url(image/book3.webp);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;

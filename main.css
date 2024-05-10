@@ -43,7 +43,7 @@
 }
 
 .image{
-    background-image: url(/image/bookimage.webp);
+    background-image: url(image/bookimage.webp);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
