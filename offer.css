@@ -6,7 +6,7 @@
 }
 
 .design{
-    background-image: url(/image/design.jpg);
+    background-image: url(/image/design.webp);
     height: 100%;
     width: 100%;
     background-repeat: no-repeat;
@@ -14,7 +14,7 @@
     display: flex;
 }
 .book-image{
-    background-image: url(/image/balidan-removebg-preview.png);
+    background-image: url(/image/balidan-removebg-preview\ \(1\).webp);
     height: 40%;
     width: 60%;
     background-repeat: no-repeat;
@@ -126,7 +126,7 @@
         color: #fff;
     }
     .book-image{
-        background-image: url(/image/balidan-removebg-preview.png);
+        background-image: url(/image/balidan-removebg-preview\ \(1\).webp);
         height: 40vh;
         width: 70%;
         background-repeat: no-repeat;
@@ -184,7 +184,7 @@
         font-size: 100%;
     }
     .book-image{
-        background-image: url(/image/balidan-removebg-preview.png);
+        background-image: url(/image/balidan-removebg-preview\ \(1\).webp);
         height: 45vw;
         width: 80%;
         background-position: center;
@@ -240,7 +240,7 @@
         font-size: 3vw;
     }
     .book-image{
-        background-image: url(/image/balidan-removebg-preview.png);
+        background-image: url(/image/balidan-removebg-preview\ \(1\).webp);
         height: 100%;
         width: 80%;
         background-repeat: no-repeat;
@@ -296,7 +296,7 @@
         font-size: 3vw;
     }
     .book-image{
-        background-image: url(/image/balidan-removebg-preview.png);
+        background-image: url(/image/balidan-removebg-preview\ \(1\).webp);
         height: 100%;
         width: 80%;
         background-repeat: no-repeat;
